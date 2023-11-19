@@ -10,7 +10,7 @@ button {
     cursor: pointer;
 }
 
-.body{
+body{
     font-family: "Roboto", sans-serif;
     color: var(--SLATE, #434455);
     background-color: #FFFFFF;
@@ -30,7 +30,7 @@ button {
     color: var(--NAVY-BLUE, #2E2F42);
 }
 
-.menu-item{
+.menu-link{
     color: var(--NAVY-BLUE, #2E2F42);
     font-size: 16px;
     font-weight: 500;
