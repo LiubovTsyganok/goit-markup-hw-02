@@ -43,7 +43,7 @@ body{
     color: var(--OCEAN, #404BBF);
 }
 
-.contact-link{
+.contact{
     color: #434455;
     font-size: 16px;
     font-style: normal;
