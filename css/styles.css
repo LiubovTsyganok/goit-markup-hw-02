@@ -11,8 +11,9 @@ button {
 }
 
 .body{
-    font-family: 'Roboto', sans-serif;
-    color: var(--NAVY-BLUE, #2E2F42);
+    font-family: "Roboto", sans-serif;
+    color: var(--SLATE, #434455);
+    background-color: #FFFFFF;
 }
 
 .logo{
@@ -20,7 +21,7 @@ button {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -29,7 +30,8 @@ button {
     color: var(--NAVY-BLUE, #2E2F42);
 }
 
-.menu-link{
+.menu-item{
+    color: var(--NAVY-BLUE, #2E2F42);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -42,8 +44,8 @@ button {
 }
 
 .contact{
-    color: var(--SLATE, #434455);
     font-size: 16px;
+    font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -51,6 +53,10 @@ button {
 .contact-link:hover,
 .contact-link:focus{
     color: var(--OCEAN, #404BBF);
+}
+
+.hero{
+    background-color: #2E2F42;
 }
 
 .hero-title{
@@ -63,6 +69,7 @@ button {
 }
 
 .hero-btn{
+    font-family: "Roboto", sans-serif;
     color: var(--WHITE, #FFF);
     background: var(--IRIS, #4D5AE5);
     font-size: 16px;
@@ -77,6 +84,7 @@ button {
 }
 
 .section-title{
+    color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
     font-size: 36px;
     font-weight: 700;
@@ -86,6 +94,7 @@ button {
 }
 
 .section-subtitle{
+    color: var(--NAVY-BLUE, #2E2F42);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -97,7 +106,6 @@ button {
 }
 
 .section-text{
-    color: var(--SLATE, #434455);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
